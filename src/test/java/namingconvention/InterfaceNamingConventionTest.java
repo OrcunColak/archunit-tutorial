@@ -16,9 +16,9 @@ public class InterfaceNamingConventionTest {
                     .should().haveSimpleNameEndingWith("Interface");
 
     @ArchTest
-    public ArchRule EXCEPTION_NAME = ArchRuleDefinition.classes().that()
+    public static final ArchRule EXCEPTION_NAME = ArchRuleDefinition.classes().that()
             .areAssignableTo(Exception.class)
             .should()
             .haveSimpleNameEndingWith("Exception");
-    
+
 }
