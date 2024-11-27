@@ -53,6 +53,13 @@
             <scope>test</scope>
         </dependency>
 
+        <!-- For Spring applications, the archunit-spring extension simplifies the creation of architectural tests by providing predefined rules and utilities.  -->
+        <dependency>
+            <groupId>com.tngtech.archunit</groupId>
+            <artifactId>archunit</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+
 
     </dependencies>
 
